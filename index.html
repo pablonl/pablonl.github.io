@@ -8,35 +8,80 @@
 			body {
 				color: lightblue;
 				background-color: linen;
+				font-family: "Times New Roman",sans-serif;
+				font-size: 15px;
+				text-align: justify;
+			}
+		
+			.contenedor {
+				width: 1200px;
+				border: 1px solid darkred;
+				border-top: 20px solid darkred;
+				padding: 20px;
+				background-color: Cornsilk;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			
+			img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		
+			.Pablo {
+				font-family: Arial,sans-serif;
+				font-size: 3em;
+				font-weight: bold;
+				text-decoration: underline;
 			}
 		
 			.Blog {
 				color: lawngreen; 
+				font-family: Arial,sans-serif;
+				font-size: 2.5em;
+				text-decoration: underline;
 			}
 		
 			.Día {
 				color: gold;
+				font-family: Arial,sans-serif;
+				font-size: 2em;
+				text-decoration: underline;
 			}
 		
 			.Viajes {
 				color: greenyellow;
+				font-family: Arial,sans-serif;
+				text-decoration: underline;
 			}
 			
 			.Fútbol {
 				color: indigo;
+				font-family: Arial,sans-serif;
+				text-decoration: underline;
 			}
 			
 			.Mí {
 				color: lightcoral;
+				font-family: Arial,sans-serif;
+				font-size: 2.5em;
+				text-decoration: underline;
 			}
 			
 			.Aficiones {
 				color: navy;
+				font-family: Arial,sans-serif;
+				font-size: 2em;
+				text-decoration: underline;
 			}
 			
 			.Comida {
 				color: orange;
-			}
+				font-family; Arial,sans-serif;
+				font-size: 2em;
+				text-decoration: underline;
+			}	
 			
 			.Viajar {
 				color: plum;
@@ -47,52 +92,54 @@
 			}
 		</style>
 	<body>
-		<h1>Blog de Pablo</h1>
-			<ul>
-				<li><a href="#Blog">¿Por qué un blog?</a></li>
-				<li><a href="#Mí">Cosas sobre mí</a></li>
-			</ul>
-		<h2 class="Blog" id="Blog"¿Por qué hago un blog?></h2>
-			<img src="https://live.staticflickr.com/5289/5333859367_7ac79c56b1.jpg" width="600" height="300" alt="Mi blog">
-				<p>Sinceramente me apetecía mucho compartir a las personas<em>cómo es mi día a día y algunas cosas sobre mí.</em></p>
-		<h3 class="Día">Mi día a día</h3>
-			<p>Me suelo depertar a las 9/10 de la mañana ya que la mayoría de clases virtuales que tengo <strong>son bastante pronto</strong>. Me levanto, desayuno y me preparo para conectarme a las clases. Después de eso hago ejercicio y ya llega la hora de comer. Más tarde hago las tareas que me han ido mandando a lo largo de la mañana y las envío. Luego veo algún capítulo de una serie o una película y después me ducho, ceno y a dormir.</p>
-		<h2 class="Mí" id="Mí">Cosas sobre mí</h2>
-		<h4 class="Viajes">Viajes que me gustaría hacer</h4>
-			<a	target="_blank" href="https://es.wikipedia.org/wiki/Tokio">
-				<img src="https://live.staticflickr.com/3203/3092905667_936f172ec1_b.jpg" width="500" height="500" alt="Tokyo">
-			</a>
-			<p class="Viajar" >Una de mis mayores aficiones es viajar. Con la situación que estamos viviendo no podemos hacerlo. Estos son algunos de los destinos a los que me gustaría viajar alguna vez en mi vida:</p>
+		<div class="contenedor">
+			<h1 class="Pablo">Blog de Pablo</h1>
 				<ul>
-					<li>Berlín</li>
-					<li><a target="_blank" href="https://guidetoiceland.is/es/guia-de-reykjavik/las-10-mejores-cosas-para-hacer-en-reykjavik">Reykjavic</a></li>
-					<li>Nueva York</li>
-					<li><a target="-blank" href="https://es.wikipedia.org/wiki/Tokio">Tokyo</a></li>
-					<li>Dubái</li>
+					<li><a href="#Blog">¿Por qué un blog?</a></li>
+					<li><a href="#Mí">Cosas sobre mí</a></li>
 				</ul>
-			<p>Son ciudades que para mi gusto no puedes no ir al menos una vez en tu vida. Todas tienen monumentos y edificios preciosos. También cabe destacar que los climas que hay es esas ciudades son muy distintos. Por ejemplo, en Reykjavic hay un clima muy frío durante la mayor parte del año, en cambio en Dubái es raro que te encuentres alguna nube.</p>
-		<h3 class="Aficiones" >Aficiones</h3>
-			<p>Algunas de mis aficiones ya las he mencionado antes, pero aún quedan varias por nombrar:</p>
-				<ul>
-					<li>Ir a natación</li>
-					<li>Quedar con mis amigos</li>
-					<li>Ir a comer a restaurantes</li>
-				</ul>
-			<p class="Series">También me gusta mucho ver películas, series,...</p>
-		<h4 class="Fútbol">Fútbol</h4>
-			<p>Me gusta mucho ver partidos de fútbol, ya sea en la televisión o en el campo.<br>Debido a las condiciones en las que nos encontramos no podemos disfrutar de este deporte. Una de las cosas que más me gusta de el fútbol son los estadios, sobretodo en días de partido, con las gradas llenas y listas para apoyar a su equipo. Este es mi top de los estadios que más me gustan fijándome en el ambiente que allí se respira y en lo que es la estructura del mismo:</p>
-				<ol>
-					<li><a href="https://www.bvb.de/es/El-BVB/Signal-Iduna-Park/SIGNAL-IDUNA-PARK">Signal Iduana Park</a></li>
-					<li><a href="https://es.wikipedia.org/wiki/Anfield">Anfield</a></li>
-					<li>Santiago Bernabéu</li>
-					<li>La Bombonera</li>
-					<li>San Paolo</li>
-				</ol>
-		<h3 class="Comida" >Comida que me gusta</h3>
-			<p>Me gusta la cocina mediterránea: suele ser comida saludable, rica en vitaminas. Uno de los alimentos principales de esta cocina es el aceite de oliva, algo muy característico de la zona mediterránea.</p>
-				<a target="_blank" href="https://www.shbarcelona.es/blog/es/cocina-mediterranea-caracteristicas/">
-					<img src="https://live.staticflickr.com/8601/16431595140_4372a5ed82_b.jpg" width="400" height="300" >
+			<h2 class="Blog" id="Blog"¿Por qué hago un blog?></h2>
+				<img src="https://live.staticflickr.com/5289/5333859367_7ac79c56b1.jpg" width="600" height="300" alt="Mi blog">
+					<p>Sinceramente me apetecía mucho compartir a las personas<em>cómo es mi día a día y algunas cosas sobre mí.</em></p>
+			<h3 class="Día">Mi día a día</h3>
+				<p>Me suelo depertar a las 9/10 de la mañana ya que la mayoría de clases virtuales que tengo <strong>son bastante pronto</strong>. Me levanto, desayuno y me preparo para conectarme a las clases. Después de eso hago ejercicio y ya llega la hora de comer. Más tarde hago las tareas que me han ido mandando a lo largo de la mañana y las envío. Luego veo algún capítulo de una serie o una película y después me ducho, ceno y a dormir.</p>
+			<h2 class="Mí" id="Mí">Cosas sobre mí</h2>
+			<h4 class="Viajes">Viajes que me gustaría hacer</h4>
+				<a	target="_blank" href="https://es.wikipedia.org/wiki/Tokio">
+					<img src="https://live.staticflickr.com/3203/3092905667_936f172ec1_b.jpg" width="500" height="500" alt="Tokyo">
 				</a>
-			<p>A pesar de que mi dieta es básicamente mediterránea, a veces también consumo comida rápida, como bien pueden ser las pizzas o las hambueguesas. Son poco saludables y engordan mucho, por eso hay que procurar ingerir pocas veces este tipo de comida.</p>
+				<p class="Viajar" >Una de mis mayores aficiones es viajar. Con la situación que estamos viviendo no podemos hacerlo. Estos son algunos de los destinos a los que me gustaría viajar alguna vez en mi vida:</p>
+					<ul>
+						<li>Berlín</li>
+						<li><a target="_blank" href="https://guidetoiceland.is/es/guia-de-reykjavik/las-10-mejores-cosas-para-hacer-en-reykjavik">Reykjavic</a></li>
+						<li>Nueva York</li>
+						<li><a target="-blank" href="https://es.wikipedia.org/wiki/Tokio">Tokyo</a></li>
+						<li>Dubái</li>
+					</ul>
+				<p>Son ciudades que para mi gusto no puedes no ir al menos una vez en tu vida. Todas tienen monumentos y edificios preciosos. También cabe destacar que los climas que hay es esas ciudades son muy distintos. Por ejemplo, en Reykjavic hay un clima muy frío durante la mayor parte del año, en cambio en Dubái es raro que te encuentres alguna nube.</p>
+			<h3 class="Aficiones" >Aficiones</h3>
+				<p>Algunas de mis aficiones ya las he mencionado antes, pero aún quedan varias por nombrar:</p>
+					<ul>
+						<li>Ir a natación</li>
+						<li>Quedar con mis amigos</li>
+						<li>Ir a comer a restaurantes</li>
+					</ul>
+				<p class="Series">También me gusta mucho ver películas, series,...</p>
+			<h4 class="Fútbol">Fútbol</h4>
+				<p>Me gusta mucho ver partidos de fútbol, ya sea en la televisión o en el campo.<br>Debido a las condiciones en las que nos encontramos no podemos disfrutar de este deporte. Una de las cosas que más me gusta de el fútbol son los estadios, sobretodo en días de partido, con las gradas llenas y listas para apoyar a su equipo. Este es mi top de los estadios que más me gustan fijándome en el ambiente que allí se respira y en lo que es la estructura del mismo:</p>
+					<ol>
+						<li><a href="https://www.bvb.de/es/El-BVB/Signal-Iduna-Park/SIGNAL-IDUNA-PARK">Signal Iduana Park</a></li>
+						<li><a href="https://es.wikipedia.org/wiki/Anfield">Anfield</a></li>
+						<li>Santiago Bernabéu</li>
+						<li>La Bombonera</li>
+						<li>San Paolo</li>
+					</ol>
+			<h3 class="Comida" >Comida que me gusta</h3>
+				<p>Me gusta la cocina mediterránea: suele ser comida saludable, rica en vitaminas. Uno de los alimentos principales de esta cocina es el aceite de oliva, algo muy característico de la zona mediterránea.</p>
+					<a target="_blank" href="https://www.shbarcelona.es/blog/es/cocina-mediterranea-caracteristicas/">
+						<img src="https://live.staticflickr.com/8601/16431595140_4372a5ed82_b.jpg" width="400" height="300" >
+					</a>
+				<p>A pesar de que mi dieta es básicamente mediterránea, a veces también consumo comida rápida, como bien pueden ser las pizzas o las hambueguesas. Son poco saludables y engordan mucho, por eso hay que procurar ingerir pocas veces este tipo de comida.</p>
+		</div>
 	</body>
 </html>
